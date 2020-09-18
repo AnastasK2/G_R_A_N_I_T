@@ -1,0 +1,358 @@
+          
+
+* {
+    box-sizing: border-box;
+}
+
+p{
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    width: 960px;
+    justify-content: space-between;
+    align-items: center;
+    height: 52px;
+    margin-top: 24px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo_image{
+    margin-right: 10px;
+}
+
+.logo_titletext{
+    font-family: 'Gotham Pro';
+	src: url('GothamPro-Bold.eot');
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 5px;
+}
+
+.logo_subtext{
+    font-family: 'Gotham Pro';
+    font-weight: 300;
+    font-style: normal;
+    font-size: small;
+    color: #999;
+}
+
+.contacts{
+    display: flex;
+}
+
+.contacts_info{
+    /* padding-top: 10px; */
+    text-align: right;
+}
+
+.contacts_title{    
+    font-family: 'Gotham Pro';
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 5px;
+    font-size: large;
+
+}
+.contacts_subtitle{
+    font-family: 'Gotham Pro';
+    font-weight: 300;
+    font-style: normal; 
+    color: #999;
+    font-size: small;
+}
+
+.back_call{
+    font-family: 'Gotham Pro';
+    src: url('GothamPro-Medium.eot');
+    font-weight: 500;
+    font-style: normal;
+    border: 2px black solid;
+    background: #fff;
+    cursor: pointer;
+    border-radius: none;
+    margin-left: 30px;
+    margin-top: 5px;
+    padding: 10px 20px;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    -ms-border-radius: none;
+    -o-border-radius: none;
+}
+
+/* menu */
+.menu {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    justify-content: space-between;
+    padding: 20px 70px;
+    width: 960px;
+    height: 60px;
+    background-color: #ffcc00;
+    margin-top: 20px;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.button{
+    border: none;
+    background-color: #ffcc00;
+    font-family: 'Gotham Pro';
+	src: url('GothamPro-Medium.eot');
+    font-weight: 500;
+    font-style: normal;
+    cursor: pointer;
+    border-radius: none;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
+.main_slider{
+    display: block;
+    position: relative;
+    z-index: -1;
+    height: 540px;
+    width: 100%;
+    margin-top: 50px;
+    background-image: linear-gradient(0deg, black 0%, transparent 100%), url('/image/main.png');
+    background-size: cover;
+}
+
+.main_title{
+    font-family: 'Gotham Pro';
+    font-weight: bold;
+    font-style: normal;
+    font-size: xx-large;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: 20%;
+    padding-top: 100px;
+}
+.main_subtitle{
+    font-family: 'Gotham Pro';
+    font-weight: 300;
+    font-style: normal;
+    color: #ffffff;
+    margin-left: 20%;
+}
+.main_buttons{
+    display: flex;
+    margin-left: 20%;
+}
+.main_button{
+    display: inline-block;
+    font-family: 'Gotham Pro';
+    font-weight: 500;
+    font-style: normal;
+    border-radius: none;
+    border: none;
+    padding: 20px;
+    background-color: #ffcc00;
+    margin-right: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.button_clicked{
+    display: block;
+    font-family: 'Gotham Pro';
+    font-weight: 500;
+    font-style: normal;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.main_button_clicked:hover{
+    background-color: #ffcc00;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section_title{
+    display: inline-block;
+    font-family: 'Gotham Pro';
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 20pt;
+    width: 960px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 63px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.product{
+    width: 299px;
+    height: 453px;
+
+}
+
+
+.advantages, .services{
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+.advant{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* контакты */
+.main_contacts{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 520px;
+    background-color: black;
+    background-image: url(/image/mapI.png);
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.map_icon{
+    width: 20px;
+    height: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contacts-form{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    background-color: #fff;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 30px 50px;
+    margin-left: 40%;
+}
+
+.main_contacts_title{
+    font-family: 'Gotham Pro';
+	src: url('GothamPro-Bold.eot');
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+
+.phones{
+    font-family: 'Gotham Pro';
+	src: url('GothamPro-Medium.eot');
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 40px;
+}
+
+.maps, .mail {
+    font-family: 'Gotham Pro';
+	src: url('GothamPro-Medium.eot');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.maps{
+    margin-bottom: 40px;
+}
+
+.phones, .maps, .mail{
+    display: flex;
+    align-items: flex-start;
+}
+
+.icons{
+    margin-right: 10px;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.phone1{
+    margin-bottom: 10px;
+}
+
+
+/* footer */
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 200px;
+    background-color: #303030;
+    padding: 30px 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_logo{
+    flex-direction: column;
+   
+}
+
+.logo_info {
+    display: flex;
+    margin-bottom: 50px;
+}
+.footer_text, .footer_subtext, .footer_titl, .footer_subtitl{
+    color: #ffffff;
+}
+
+.footer_p{
+    color: #ffffff;
+    font-family: 'Gotham Pro';
+    font-weight: 300;
+    font-style: normal;
+    font-size: small;
+}
+.footer_info{
+    margin-bottom: 22px;
+}
+
+.footer_button{
+    background-color: #303030;
+    border:  2px  solid #fff;
+    color: #fff;
+}
+
+.footer_contacts{
+    flex-direction: column;
+}
