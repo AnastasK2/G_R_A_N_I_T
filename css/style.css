@@ -139,6 +139,7 @@ p{
     text-transform: uppercase;
     margin-left: 20%;
     padding-top: 100px;
+    z-index: 0;
 }
 .main_subtitle{
     font-family: 'Gotham Pro';
@@ -146,10 +147,13 @@ p{
     font-style: normal;
     color: #ffffff;
     margin-left: 20%;
+    z-index: 0;
 }
 .main_buttons{
+    position: relative;
     display: flex;
     margin-left: 20%;
+    z-index: 0;
 }
 .main_button{
     display: inline-block;
@@ -170,9 +174,21 @@ p{
     font-family: 'Gotham Pro';
     font-weight: 500;
     font-style: normal;
-    border: none;
     padding: 20px;
     cursor: pointer;
+    color: #fff;
+}
+
+.button_or{
+    font-family: 'Gotham Pro';
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.button_clicked:hover {
+    text-decoration: underline;
 }
 
 .main_button_clicked:hover{
@@ -192,6 +208,7 @@ p{
     justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 95px;
 }
 
 .section_title{
@@ -223,8 +240,32 @@ p{
 
 .advant{
     width: 960px;
+    height: 250px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.card_advant{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.services_cards{
+    display: flex;
+    align-items: flex-start;
+    width: 300px;
+    height: 250px;
+}
+
+.card{
+    font-family: 'Gotham Pro';
+    font-weight: 500;
+    font-style: normal;
+    margin-right: 25px;
+    color: #373737;
+
 }
 
 /* контакты */
